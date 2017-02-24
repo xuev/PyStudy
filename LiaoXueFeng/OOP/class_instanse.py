@@ -27,8 +27,9 @@ class Student(object):
             raise ValueError('Bad score!')
 
 
-bart = Student('Allen Xue', 99)
+bart = Student('Allen Xue', 100)
 
-bart.get_name()
-bart.get_score()
-bart.get_grade()
+bart.set_score(99)
+print bart.get_name()
+print bart.get_score()
+print bart.get_grade()
