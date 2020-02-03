@@ -30,6 +30,6 @@ class Student(object):
 bart = Student('Allen Xue', 100)
 
 bart.set_score(99)
-print bart.get_name()
-print bart.get_score()
-print bart.get_grade()
+print(bart.get_name())
+print(bart.get_score())
+print(bart.get_grade())
